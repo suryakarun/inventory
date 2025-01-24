@@ -1,0 +1,41 @@
+/* InventoryTable.css */
+body {
+    background-color: #28a745;
+  }
+  
+
+.inventory-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .inventory-table th, .inventory-table td {
+    padding: 15px;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  .inventory-table th {
+    cursor: pointer;
+    background-color: #f4f4f4;
+  }
+  
+  .inventory-table .low-stock {
+    background-color: #ffcccc;
+  }
+  
+  button {
+    padding: 10px 15px;
+    margin-right: 5px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
